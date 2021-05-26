@@ -1,0 +1,146 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	color: black;
+	font-family: arial;
+	font-size: 20px; 
+}
+body{
+	background-image: url("../imagens/galaxia.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+#principal{
+	min-height: 400px;
+	max-width: 960px;
+	margin: auto;
+	background-image: url("../imagens/fundo.png");
+}
+#pag_adm{
+}
+#cabecalho{
+	padding: 10px;
+}
+a{
+	text-decoration: none;
+}
+.logo{
+	display: inline;
+	margin-left: 10px;
+}
+li{
+	list-style: none; 
+}
+#menu-principal a{
+	background-color: #00CCFF;
+	color: #283B7F;
+	display: block;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#menu-principal > li{
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+#menu-principal li a:hover{
+	background-color: red;
+}
+.menu-principal{
+	margin-top: 20px;
+}
+#menu-principal li ul{
+	display: none;
+	position: absolute;
+    width: 235px;
+}
+#menu-principal li:hover ul{
+	display: block;
+}
+#corpo{
+	margin: 0px 30px;
+	min-height: 500px;
+	max-height: 2500px;
+	background-color: rgba(255,255,255,.6);
+}
+#rodape{
+	background-color: #00CCFF;
+	height: 170px;
+	padding: 10px;
+	max-width: 960px;
+}
+#voltaraotopo{
+	width: 100px;
+	display: scroll;
+	position: fixed;
+	right: 220px;
+	bottom: 5px;
+}
+#login_adm{
+	text-align: center;
+	font-size: 25px;
+	opacity: 1;
+}
+a.esqueceu_senha{
+	font-family: times new roman;
+	font-size: 14px;
+}
+#contato_anuncie{
+	font-weight: bold;
+	position: relative;
+}
+#menu_login a{
+	background-color: red;
+	color: #00CCFF;
+	display: block;
+	font-weight: bold;
+	padding: 5px;
+	position: relative;
+	top: 5px;
+}
+.menu_login{
+	margin-top: 20px;
+	float: right;
+}
+#menu_login li{
+	text-align: center;
+}
+#menu_login li a:hover{
+	background-color:  #283B7F;
+}
+#menu_login li ul{
+	display: none;
+}
+#menu_login li:hover ul{
+	display: block;
+}
+#voltar_login{
+	padding: 5px;
+	background: red;
+	color: #283B7F;
+	position: relative;
+	left: 350px;
+	Top: 30px;
+}
+h1{
+	text-align: center;
+	font-family: segoe script;
+	font-size: 35px;
+	font-weight: bold;
+	color: red;
+}
+#fotos_eu{
+	left: 9%;
+}
+ul#numerando-paginas li{
+position:relative;
+float:left;
+list-style-type:none;
+}
+#monica1{
+	position: relative;
+	left: 56%;
+	top: 10px;
+}
